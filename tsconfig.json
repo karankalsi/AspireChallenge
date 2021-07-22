@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "lib": ["es6"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "typeRoots": ["./src/types"],
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@core/atoms/*": ["src/core/ui/components/atoms/*"],
+      "@core/molecules/*": ["src/core/ui/components/molecules/*"],
+      "@core/organisms/*": ["src/core/ui/components/organisms/*"],
+      "@core/actions/*": ["src/core/domain/actions/*"],
+      "@core/store": ["src/core/domain/redux/store"],
+      "@core/ui-lib/*": ["src/core/ui/lib/*"],
+      "@core/styles/*": ["src/core/ui/styles/*"],
+      "@core/dto": ["src/core/data/api/dto"],
+      "@res/images": ["res/images"],
+      "@res/palette": ["res/palette"],
+      "@res/typeface": ["res/typeface"]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ]
+}

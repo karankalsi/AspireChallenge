@@ -1,0 +1,15 @@
+{
+  "id": 2381,
+  "name": "Karan Kalsi",
+  "debitCard": {
+    "name": "Karan Kalsi",
+    "number": "2373 9422 6229 4024",
+    "expiry": "10/24",
+    "type": "Visa",
+    "active": true,
+    "freezed": false,
+    "balance": "3000"
+  },
+  "deactivatedCards": [],
+  "weeklyLimit": 5000
+}
