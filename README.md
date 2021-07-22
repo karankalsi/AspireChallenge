@@ -1,5 +1,5 @@
 # Aspire Challenge App (ReactNative)
-
+![demo](demo.gif)
 
 ### Project Setup
 `yarn run init`
@@ -20,7 +20,7 @@
   
   **Story Points:** 2
   
-  **Status:** Open
+  **Status:** `Ready for Owner Review`
 
   ---
 
@@ -42,7 +42,7 @@
   
   **Story Points:** 3
   
-  **Status:** Open
+  **Status:** `Ready for Owner Review`
 
 ---
 
@@ -62,7 +62,7 @@
   
   **Story Points:** 2
   
-  **Status:** Open
+  **Status:** `Won't Do`
 
 
   ---
